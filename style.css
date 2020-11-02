@@ -112,3 +112,39 @@ a
   line-height:0.8rem;
   margin-top:-145px;
 }
+
+@media (min-width: 320px) and (max-width: 1023px){
+
+  h1{
+
+  }
+  body{
+    margin:0;
+    border:none;
+    font-size:12px;
+  }
+  .resumePage
+  {
+  grid-template-columns:45% 1fr;
+  }
+  .topcolor
+  {  
+  width:160px;
+  height:220px;
+  }
+  .mainblock
+    {
+  margin-left:2.5rem;
+  width:400px;
+  margin-top:-180px;
+}
+.ct
+{
+  grid-template-columns:25% 1fr;
+}
+.fill
+{
+  background-color:#DFF6FC;
+  padding-bottom:20px;
+}
+}
